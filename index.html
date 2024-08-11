@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Music Search</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="search-container">
+      <h1>Music Search</h1>
+      <input type="text" id="searchInput" placeholder="Search for a song..." />
+      <button onclick="searchTracks()">Search</button>
+      <div id="results" class="results"></div>
+      <div id="player"></div>
+      <div class="loading" id="loading">Loading...</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
